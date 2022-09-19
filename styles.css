@@ -1,8 +1,14 @@
+.centeredFrog {
+    text-align: center;
+    position: relative;
+    top: 80px;
+}
+
 body {
     background-color: #141414;
+    position: top;
     margin: 0;
-    padding: 10;
-    height: 100vh;
+    padding: 0;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -10,17 +16,20 @@ body {
 }
 
 h1 {
-    color: chartreuse;
+    color: forestgreen;
     font-family: "Verdana", sans-serif;
-    font-size: 150px;
+    font-size: 120px;
     font-weight: 100;
-    line-height: 200px;
+    line-height: 120px;
     margin: 0 auto;
     text-align: center;
     width: 60%;
-    padding: 0px;
+    position: relative;
+    top: 15px;
 }
 
 audio {
-    padding: 20px;
+    padding: 5px;
+    position: relative;
+    top: 80px;
 }
