@@ -3,6 +3,10 @@
     padding: 50px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-image: url("images/background.png");
     background-size: contain;
@@ -44,13 +48,13 @@ body {
 
 .aBlock {
     display: block;
-    color: #000;
+    color: #ddb9b9;
     padding: 22px 147.99px;
     text-decoration: none;
 }
 
 .frogLi {
-    color: rgb(34, 177, 76);
+    color: #ddb9b9;
     font-family: "Courier New", monospace;
     font-size: 20px;
     font-weight: 10;
@@ -63,7 +67,7 @@ body {
 }
 
 h1 {
-    color: rgb(34, 177, 76);
+    color: #ddb9b9;
     font-family: "Courier New", monospace;
     font-size: 85px;
     font-weight: 100;
@@ -72,10 +76,11 @@ h1 {
     text-align: center;
     width: 60%;
     padding: 20px;
+    display: inline;
 }
 
 h2 {
-    color: rgb(34, 177, 76);
+    color: #ddb9b9;
     font-family: "Courier New", monospace;
     margin: 0 auto;
     text-align: center;
@@ -84,7 +89,7 @@ h2 {
 }
 
 p {
-    color: rgb(34, 177, 76);
+    color: #ddb9b9;
     font-family: "Courier New", monospace;
     font-size: 20px;
     font-weight: 10;
@@ -96,4 +101,11 @@ p {
 
 audio {
     padding: 10px;
+    position: fixed;
+    bottom: 10px;
+}
+
+.denote {
+    position: fixed;
+    bottom: 80px;
 }
