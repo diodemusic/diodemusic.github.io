@@ -60,6 +60,7 @@ body {
 
 .aBlock {
     display: block;
+    font-weight: 900;
     color: #ddb9b9;
     padding: 22px 147.99px;
     text-decoration: none;
